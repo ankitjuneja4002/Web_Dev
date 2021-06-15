@@ -297,7 +297,7 @@ header{
     background-color: white;
     text-align: center;
     padding: 80px 80px 150px 80px;
-    height:100%;
+    height: auto;
 }
 
 #sec-4 h2 {
@@ -332,10 +332,9 @@ header{
 
 #div4-wrapper {
     display: flex;
-    justify-content:space-between;
-    width: 80%;
-    position: absolute;
-    right: 10%;
+    
+    justify-content: space-around;
+    width: auto;
 
 }
 
@@ -679,11 +678,10 @@ footer {
     #div4-wrapper {
         display: block;
         height: auto;
-        position: relative;
-        margin-left: 19.5%;
+        margin: auto 7%;
     }
     #div4-wrapper div {
-        width: fit-content;;
+        width: fit-content;
     }
 #sec-5 {
     margin-top: 10%;
@@ -727,13 +725,13 @@ footer {
 }
 }
 
-@media (min-width:770px) and (max-width: 1268px){
+@media (min-width:770px) and (max-width: 1268px) {
     
     
     #step-container {
         display: grid;
         grid-template-columns: auto;
-        grid-row-gap: 16px;
+        grid-row-gap: 0;
         
     }
     #step-container div {
@@ -762,18 +760,19 @@ footer {
         width: auto;
     }
     #sec-4{
-        height: 140%;
+        height: auto;
     }
     
     #div4-wrapper {
-        display: flex;
-        flex-direction: column;
-        height: auto;           
+        display: block;
+        height: auto;
+        margin: auto 4%;
     }
     #div4-wrapper div {
-        height: auto;
-        width: auto;
+        width: fit-content;
+        
     }
+    
     #sec-5{
         height: 90vh;
     }
@@ -819,6 +818,5 @@ footer {
     #sec-9 {
         margin-top: 80px;
     }
-
 
 }
