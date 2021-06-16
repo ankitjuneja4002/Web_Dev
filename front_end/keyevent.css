@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://i0.wp.com/www.yesmagazine.org/wp-content/uploads/imports/312be001e3254afeafb551ea77bbae66.jpg?w=1400&quality=90&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:difference;
+    
+}
+
+h1 {
+    text-align: center;
+    color:darkred;
+    background-color: wheat;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 18%;
+    width: auto;
+}
+
+#main div {
+    border: 3px solid rgb(173, 25, 111);
+    width: 8%;
+    height: auto;
+}
+
+h4 {
+    font-size: xx-large;
+    color:rgb(201, 6, 250);
+    font-weight: 900;
+
+}
+
+p {
+    color: rgb(251, 255, 0);
+}
+
