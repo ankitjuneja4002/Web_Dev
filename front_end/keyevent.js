@@ -186,11 +186,20 @@ document.body.addEventListener('keyup', function(e){
 
 //nidbfgiberbgeuirngerngineihgoeheorngone
 
-document.body.addEventListener('keypress', function(e){
+document.body.addEventListener('keydown', function(e){
     var keycode = e.keyCode;
     if(keycode === 65){
         
         clap.play();
+    }   
+
+});
+
+document.body.addEventListener('keyup', function(e){
+    var keycode = e.keyCode;
+    if(keycode === 65){
+        
+        clap.pause();
     }   
 
 });
@@ -212,6 +221,7 @@ document.body.addEventListener('keypress', function(e){
     }   
 
 });
+
 
 document.body.addEventListener('keypress', function(e){
     var keycode = e.keyCode;
@@ -240,11 +250,20 @@ document.body.addEventListener('keypress', function(e){
 
 });
 
-document.body.addEventListener('keypress', function(e){
+document.body.addEventListener('keydown', function(e){
     var keycode = e.keyCode;
     if(keycode === 74){
         
         snare.play();
+    }   
+
+});
+
+document.body.addEventListener('keyup', function(e){
+    var keycode = e.keyCode;
+    if(keycode === 74){
+        
+        snare.pause();
     }   
 
 });
